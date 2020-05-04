@@ -23,11 +23,13 @@ A Docker container configuration is provided that establishes the runtime enviro
 
 2. Build the Docker container
 
-    You can build the Docker conatiner for the build environment using Docker Compose as follows:
+    You can build the Docker container for the build environment using Docker Compose as follows:
 
     ```
     docker-compose build
     ```
+    
+    On Windows environments, make sure Docker is configured to use Linux containers rather than Windows containers.
 
 3. Run the Docker container
 
